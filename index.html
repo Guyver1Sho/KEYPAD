@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="./css.css"> -->
+    <link rel="stylesheet" href="keypadcss.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:ital@1&display=swap" rel="stylesheet">
+    <link href="//db.onlinewebfonts.com/c/7b6a3052ac99368df5c80f3fd161fe32?family=Square721+BT" rel="stylesheet" type="text/css"/>
+    <script defer src="calc.js"></script>
+    <title>Document</title>
+</head>
+<body>
+
+ <!--Need to set a max character limit in CSS so it does not break the container-->
+
+ <div class="inputLabel" colspan="4" id="inputLabel">0</div>
+
+        <div class="container">
+        <div id = "option-buttons" class="btn-grid">
+     
+        
+        
+        
+        <table>    
+        <tr>
+        <td><button class="btn" id = button7 onclick="pushBtn(this); play();">7</button></td>
+        <td><button class="btn" id = button8 onclick="pushBtn(this); play();">8</button></td>
+        <td><button class="btn" id = button9 onclick="pushBtn(this); play();">9</button></td>
+
+        </tr>
+        <tr>
+            <td><button class="btn" id = button4 onclick="pushBtn(this); play();">4</button></td>
+            <td><button class="btn" id = button5 onclick="pushBtn(this); play();">5</button></td>  
+            <td><button class="btn" id = button6 onclick="pushBtn(this); play();">6</button></td>
+            
+        </tr>
+        <tr>
+            <td><button class="btn" id = button1 onclick="pushBtn(this); play();">1</button></td>
+            <td><button class="btn" id = button2 onclick="pushBtn(this); play();">2</button></td>
+            <td><button class="btn" id = button3 onclick="pushBtn(this); play();">3</button></td>
+            
+        </tr>
+        <tr>
+            <td><button class="btn"  id = star onclick= "pushBtn(this); play();">*</button></td>
+            <td><button class="btn" id = button0 onclick="pushBtn(this); play();">0</button></td>
+            <td><button class="btn" id = hash onclick="pushBtn(this); play();">Clear</button></td>
+    </tr>
+</table>
+
+<section>
+    <div class="LEDGREEN" id = "LEDGREEN">
+
+    </div>
+
+
+    <div class="LEDRED" id = "LEDRED">
+
+    </div>
+
+</section>
+
+<audio id="audio" src="beep-07.mp3"></audio>
+</body>
+</html>

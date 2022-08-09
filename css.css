@@ -1,0 +1,170 @@
+html {
+    height: 100%;
+    width: 100%;
+    background: url("Swipe access 5.png") no-repeat;
+    background-position: center;
+    display: block;
+    background-position: 350px 0;
+    background-size: 1000px 950px;
+
+}
+
+
+
+#option-buttons {
+    position: -webkit-sticky;
+    position: relative;
+    display: flex;
+    top: 195px;
+    left: 650px;
+    height: 300px;
+    width: 300px;
+    justify-content: space-between;
+    
+
+}
+
+.btn {
+padding: 5px;
+margin-bottom: 26px;
+margin-right: 40px;
+font-size: 30px;
+font-family: "Arial";
+font-weight: bold;
+background-image: url("button.jpg");
+border: none;
+
+}
+
+.btn:active {
+    padding: 5px;
+    margin-bottom: 26px;
+    margin-right: 40px;
+    font-size: 30px;
+    font-family: "Arial";
+    font-weight: bold;
+    background-image: url("button-depress.jpg");
+    border: none;
+    height: 60px;
+    width: 95px;
+    
+    
+}
+
+
+
+.btn {
+    height: 60px;
+    width: 95px;
+}
+
+
+#inputLabel {
+   
+    text-overflow: clip; 
+    white-space: nowrap;
+    overflow: hidden;  
+    background: grey;
+    z-index: 1;
+    height: 70px;
+    width: 160px;
+    top: 170px;
+    left: 658px;
+    position: -webkit-sticky;
+    position: relative;
+    font-size: 40px;
+    font-family: "press start 2p";
+    line-height: 70px;
+    
+    
+    
+}
+
+
+#btn{
+    position: -webkit-sticky;
+    position: relative;
+    z-index: 3;
+}
+
+
+section #LEDGREEN {
+    z-index: 4;
+    position: -webkit-sticky;
+    position: relative;
+    top: -72px;
+    left: -100px;
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    background: darkgreen;
+   
+    }
+
+    section  #LEDGREEN.on {
+        z-index: 2;
+        position: -webkit-sticky;
+            position: relative;
+            top: -72px;
+            left: -100px;
+            width: 25px;
+            height: 25px;
+            border-radius: 25px;
+        background: lightseagreen;
+        box-shadow: 0 0 10px lightseagreen,
+                    0 0 10px lightseagreen, 
+                    0 0 20px lightseagreen,
+                    0 0 20px lightseagreen,
+                    0 0 30px lightseagreen,
+                    0 0 30px lightseagreen,
+                    0 0 40px lightseagreen,
+                    0 0 80px lightseagreen,
+                    0 0 100px lightseagreen;
+        }
+    
+        
+        
+        section #LEDRED {
+            z-index: 1;
+            position: -webkit-sticky;
+            position: relative;
+            top: -97px;
+            left: -182px;
+            width: 25px;
+            height: 25px;
+            border-radius: 25px;
+            background:  red;
+            box-shadow: 0 0 10px  red,
+                    0 0 10px  red, 
+                    0 0 20px red,
+                    0 0 20px  red,
+                    0 0 30px  red,
+                    0 0 30px  red,
+                    0 0 40px  red,
+                    0 0 80px  red,
+                    0 0 100px  red;
+            
+        }
+
+
+
+
+
+section #LEDRED.off {
+    z-index: 2;
+    position: -webkit-sticky;
+    position: relative;
+    top: -97px;
+    left: -182px;
+    width: 25px;
+    width: 25px;
+    border-radius: 25px;
+    background:  darkred;
+    box-shadow: 0;
+}
+
+    
+    
+
+    
+
